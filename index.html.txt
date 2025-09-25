@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asgardian Prints — Custom 3D Prints, American Made</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="container">
+  <nav class="nav">
+    <div class="brand">ASGARDIAN PRINTS</div>
+    <div class="nav-links">
+      <a href="#shop">Shop</a><a href="#custom">Custom</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </div>
+  </nav>
+  <section class="hero">
+    <div>
+      <h1>Custom 3D Prints. American Made.</h1>
+      <p class="muted">Built to your specs, clean layers, fast turnaround. Made-to-order in Kentucky.</p>
+      <div class="actions"><a class="btn" href="#shop">Browse Products</a><a class="btn secondary" href="#custom">Request a Quote</a></div>
+    </div>
+    <div class="hero-art" aria-hidden="true"></div>
+  </section>
+</header>
+<main class="container">
+  <section id="shop"><h2>Shop</h2>
+    <div class="grid">
+      <div class="card"><div class="thumb"></div><h3>Articulated Dragon</h3><p class="muted">Smooth joints, clean layers.</p><div class="price">$24.99</div><a class="btn" href="#contact">Order via Message</a></div>
+      <div class="card"><div class="thumb"></div><h3>Utility Hooks (4)</h3><p class="muted">Durable PETG hooks.</p><div class="price">$14.99</div><a class="btn" href="#contact">Order via Message</a></div>
+      <div class="card"><div class="thumb"></div><h3>Cosplay Bracer</h3><p class="muted">Lightweight PLA, paint-ready.</p><div class="price">$29.99</div><a class="btn" href="#contact">Order via Message</a></div>
+    </div>
+  </section>
+  <section id="custom" class="section"><h2>Custom Prints</h2><p>Send your STL or link with size, color, and deadline. We quote fast and ship in 3–5 business days.</p><p class="muted small">Originals and licensed files only.</p></section>
+  <section id="about" class="section"><h2>About</h2><p>Asgardian Prints is a small American shop focused on practical quality: PLA/PETG, tuned settings, honest turnaround.</p></section>
+  <section id="contact" class="section"><h2>Contact</h2><p>Email <a href="mailto:hello@asgardianprints.com">hello@asgardianprints.com</a> to order. Include item, color, and shipping address.</p></section>
+</main>
+<footer class="container footer">© <span id="y"></span> Asgardian Prints • Made-to-order in Kentucky</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
